@@ -15,6 +15,10 @@ public class Produto {
         this.quantidadeEmEstoque = quantidadeEmEstoque;
     }
 
+    public Produto(String nome) {
+        this.nome = nome;
+    }
+
     @Override
     public String toString() {
         DecimalFormat df = new DecimalFormat("#,##0.00");

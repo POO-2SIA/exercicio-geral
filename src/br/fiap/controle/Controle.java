@@ -92,6 +92,8 @@ public class Controle {
     }
 
     private void removerItem() {
+        String nomeProduto = showInputDialog("Insira o nome do produto que deseja remover");
+        Produto p = new Produto(nomeProduto);
 
     }
 

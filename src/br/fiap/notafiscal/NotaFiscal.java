@@ -22,7 +22,7 @@ public class NotaFiscal {
         lista.add(item);
     }
 
-    public void removerProduto(Produto produto) {
+    public void removerItem(Produto produto) {
 
     }
 
@@ -33,6 +33,7 @@ public class NotaFiscal {
         }
         return total;
     }
+
 
     public boolean getStatus() {
         return status;
